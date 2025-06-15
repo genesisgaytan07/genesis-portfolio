@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/genesis-portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/genesis-portfolio/static/js/main.ae917a8b.js",
+    "main.css": "/genesis-portfolio/static/css/main.536bba74.css",
+    "main.js": "/genesis-portfolio/static/js/main.3f155361.js",
     "static/js/453.4c429b1e.chunk.js": "/genesis-portfolio/static/js/453.4c429b1e.chunk.js",
-    "static/media/logo.svg": "/genesis-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/france.png": "/genesis-portfolio/static/media/france.36617d8da1bb1be1a4f0.png",
+    "static/media/italy.png": "/genesis-portfolio/static/media/italy.e2575a0885bac298a794.png",
+    "static/media/mexico.png": "/genesis-portfolio/static/media/mexico.b851e46a9e91991b7cbf.png",
+    "static/media/HeadShot.png": "/genesis-portfolio/static/media/HeadShot.8680528306b10b57f821.png",
     "index.html": "/genesis-portfolio/index.html",
-    "main.f855e6bc.css.map": "/genesis-portfolio/static/css/main.f855e6bc.css.map",
-    "main.ae917a8b.js.map": "/genesis-portfolio/static/js/main.ae917a8b.js.map",
+    "main.536bba74.css.map": "/genesis-portfolio/static/css/main.536bba74.css.map",
+    "main.3f155361.js.map": "/genesis-portfolio/static/js/main.3f155361.js.map",
     "453.4c429b1e.chunk.js.map": "/genesis-portfolio/static/js/453.4c429b1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.ae917a8b.js"
+    "static/css/main.536bba74.css",
+    "static/js/main.3f155361.js"
   ]
 }
