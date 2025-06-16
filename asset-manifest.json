@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/genesis-portfolio/static/css/main.536bba74.css",
-    "main.js": "/genesis-portfolio/static/js/main.3f155361.js",
-    "static/js/453.4c429b1e.chunk.js": "/genesis-portfolio/static/js/453.4c429b1e.chunk.js",
+    "main.css": "/genesis-portfolio/static/css/main.a4a3e1c6.css",
+    "main.js": "/genesis-portfolio/static/js/main.01df337c.js",
+    "static/js/453.ba50b80f.chunk.js": "/genesis-portfolio/static/js/453.ba50b80f.chunk.js",
     "static/media/france.png": "/genesis-portfolio/static/media/france.36617d8da1bb1be1a4f0.png",
-    "static/media/italy.png": "/genesis-portfolio/static/media/italy.e2575a0885bac298a794.png",
-    "static/media/mexico.png": "/genesis-portfolio/static/media/mexico.b851e46a9e91991b7cbf.png",
+    "static/media/ulta.png": "/genesis-portfolio/static/media/ulta.7e6a898bde60b1de97d1.png",
+    "static/media/chicago.JPG": "/genesis-portfolio/static/media/chicago.6144bd82df80064193a5.JPG",
     "static/media/HeadShot.png": "/genesis-portfolio/static/media/HeadShot.8680528306b10b57f821.png",
+    "static/media/unitedAirlines.png": "/genesis-portfolio/static/media/unitedAirlines.8bcc465fabc41d516236.png",
+    "static/media/scrapBooth1.png": "/genesis-portfolio/static/media/scrapBooth1.32ebd25fc5b25b1f2498.png",
     "index.html": "/genesis-portfolio/index.html",
-    "main.536bba74.css.map": "/genesis-portfolio/static/css/main.536bba74.css.map",
-    "main.3f155361.js.map": "/genesis-portfolio/static/js/main.3f155361.js.map",
-    "453.4c429b1e.chunk.js.map": "/genesis-portfolio/static/js/453.4c429b1e.chunk.js.map"
+    "main.a4a3e1c6.css.map": "/genesis-portfolio/static/css/main.a4a3e1c6.css.map",
+    "main.01df337c.js.map": "/genesis-portfolio/static/js/main.01df337c.js.map",
+    "453.ba50b80f.chunk.js.map": "/genesis-portfolio/static/js/453.ba50b80f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.536bba74.css",
-    "static/js/main.3f155361.js"
+    "static/css/main.a4a3e1c6.css",
+    "static/js/main.01df337c.js"
   ]
 }
