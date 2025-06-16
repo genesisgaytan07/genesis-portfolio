@@ -1,19 +1,17 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from "react-responsive-carousel";
-
 import "../styles/Carousel.css"; 
 import france from "../assets/france.png";
-import italy from "../assets/italy.png";
-import mexico from "../assets/mexico.png";
-
+import ulta from "../assets/ulta.png"
+import chicago from "../assets/chicago.JPG"
 
 export default function TravelCarousel() {
-  const travelImages = [france, italy, mexico];
+  const travelImages = [france,ulta,chicago];
 
   return (
     <section className="max-w-4xl mx-auto mt-20 px-4">
       <h2 className="text-2xl font-semibold text-[#005DAA] text-center mb-6">
-        My Travel Gallery
+         About Me Gallery
       </h2>
 
       <div className="relative max-w-xs mx-auto">
