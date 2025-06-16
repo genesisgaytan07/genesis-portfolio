@@ -103,9 +103,9 @@ export default function Portfolio() {
               involvement. I was born and raised in Chicago! Experienced in
               programming, cybersecurity, and collaborative projects, I love
               learning and am a quick learner who picks up new skills easily. I
-              thrive in collaborative environments and am currently pursuing
-              Google and Microsoft cybersecurity certifications. I’m actively
-              seeking a role in cybersecurity or data analytics where I can
+              thrive in collaborative environments and am currently pursuing the
+              Microsoft cybersecurity analyst certification. I’m actively
+              seeking a role in cybersecurity and analytics where I can
               apply my technical skills and passion for protecting data and
               uncovering valuable insights. Outside of technology, I enjoy
               traveling and immersing myself in new cultures, which I believe
@@ -140,7 +140,7 @@ export default function Portfolio() {
                     IIT Association for Computing Machinery Women – Board Leader
                   </h3>
                   <p>
-                    Ran social media accounts and coordinated events. As someone
+                    Ran the club's social media accounts and coordinated events. As someone
                     passionate about both technology and travel, one of my
                     favorite events to coordinate was our partnership event with
                     United Airlines! It inspired me to learn more about their
@@ -241,6 +241,7 @@ export default function Portfolio() {
             <p>
               Bachelor of Science in Information Technology & Management,
               Illinois Institute of Technology
+            
             </p>
             <ul className="list-disc list-inside mt-2 space-y-1">
               <li>
@@ -250,15 +251,14 @@ export default function Portfolio() {
                 Leaders in Science & Tech Scholarship, Heald Scholarship, Stem+
                 Scholarship Recipient
               </li>
-              <li>
-                Cybersecurity training: CodePath Pathway Scholar, pursuing
-                Google Cybersecurity and Microsoft Cybersecurity Analyst
-                certifications
-              </li>
+
               <li>
                 Additional coursework: OOP, Data Networks, Cybersecurity
                 Technologies, Project Management, Front-End Web Development
               </li>
+              <p>
+              Microsoft cybersecurity analyst certification (In Progress)
+            </p>
             </ul>
           </section>
         </Element>
