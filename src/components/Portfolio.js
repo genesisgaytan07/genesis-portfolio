@@ -9,15 +9,15 @@ export default function Portfolio() {
   const [showResume, setShowResume] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900 p-6 font-outfit">
+    <div className="min-h-screen p-6 text-gray-900 bg-gray-50 font-outfit">
       {/* Hero Section */}
-      <div className="flex flex-col md:flex-row items-center justify-center gap-10 pt-10 max-w-5xl mx-auto text-center">
+      <div className="flex flex-col items-center justify-center max-w-5xl gap-10 pt-10 mx-auto text-center md:flex-row">
         {/* Left: Image */}
         <div className="flex-shrink-0">
           <img
             src={headshot}
             alt="Genesis Gaytan"
-            className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover shadow-lg"
+            className="object-cover w-48 h-48 rounded-full shadow-lg md:w-56 md:h-56"
           />
         </div>
 
@@ -25,16 +25,16 @@ export default function Portfolio() {
         <div className="flex flex-col items-center text-center">
           <p className="text-sm text-gray-600">Hello, I'm</p>
           <h1 className="text-4xl font-bold text-[#005DAA]">Genesis Gaytan</h1>
-          <p className="text-lg mt-1">IIT | RTC | WiCys</p>
+          <p className="mt-1 text-lg">IIT | RTC | WiCys</p>
 
           {/* LinkedIn Icon */}
-          <div className="mt-4 flex justify-center md:justify-start">
+          <div className="flex justify-center mt-4 md:justify-start">
             <a
               href="https://www.linkedin.com/in/genesis-gaytan-ba330b164/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn Profile"
-              className="hover:opacity-80 transition"
+              className="transition hover:opacity-80"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ export default function Portfolio() {
                 height="28"
                 viewBox="0 0 24 24"
                 fill="#005DAA"
-                className="hover:scale-110 transition-transform"
+                className="transition-transform hover:scale-110"
               >
                 <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z" />
               </svg>
@@ -50,7 +50,7 @@ export default function Portfolio() {
           </div>
 
           {/* Buttons */}
-          <div className="mt-4 flex flex-col sm:flex-row gap-4 sm:justify-start justify-center">
+          <div className="flex flex-col justify-center gap-4 mt-4 sm:flex-row sm:justify-start">
             <button
               onClick={() => setShowResume(true)}
               className="inline-block px-6 py-2 bg-[#005DAA] text-white rounded-full hover:bg-[#004C8C] transition"
@@ -70,18 +70,18 @@ export default function Portfolio() {
 
      {/* Resume Modal */}
       {showResume && (
-        <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
           <div className="bg-white p-4 rounded-lg max-w-5xl w-full h-[85vh] relative shadow-lg">
             <button
               onClick={() => setShowResume(false)}
-              className="absolute top-2 right-3 text-gray-700 text-2xl font-bold hover:text-gray-900 transition"
+              className="absolute text-2xl font-bold text-gray-700 transition top-2 right-3 hover:text-gray-900"
               aria-label="Close resume modal"
               type="button"
             >
               &times;
             </button>
             <iframe
-                src={`${process.env.PUBLIC_URL}/Gaytan_Genesis_Resume2025.pdf`}
+                src={`${process.env.PUBLIC_URL}/Gaytan_Genesis_Resume.pdf`}
                 title="Genesis Gaytan Resume"
                  className="w-full h-full rounded-md"
             />
@@ -90,7 +90,7 @@ export default function Portfolio() {
       )}
 
       {/* Main Content */}
-      <main className="max-w-4xl mx-auto space-y-20 mt-16">
+      <main className="max-w-4xl mx-auto mt-16 space-y-20">
         {/* About Me */}
         <Element name="about">
           <section>
@@ -128,15 +128,15 @@ export default function Portfolio() {
               Projects & Experience
             </h2>
             <ul className="space-y-4">
-              <li className="p-4 bg-white rounded-xl shadow hover:shadow-md transition flex flex-col sm:flex-row-reverse items-center justify-between gap-6">
+              <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
                 <img
                   src={unitedImage}
                   alt="United Airlines Logo"
-                  className="w-60 h-60 object-contain rounded-xl"
+                  className="object-contain w-60 h-60 rounded-xl"
                   style={{ border: "none", boxShadow: "none" }}
                 />
                 <div className="text-left">
-                  <h3 className="font-bold text-lg">
+                  <h3 className="text-lg font-bold">
                     IIT Association for Computing Machinery Women – Board Leader
                   </h3>
                   <p>
@@ -149,15 +149,15 @@ export default function Portfolio() {
                 </div>
               </li>
 
-              <li className="p-4 bg-white rounded-xl shadow hover:shadow-md transition flex flex-col sm:flex-row-reverse items-center justify-between gap-6">
+              <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
                 <img
                   src={scrapBooth}
                   alt="ScrapBooth Logo"
-                  className="w-60 h-60 object-contain rounded-xl"
+                  className="object-contain w-60 h-60 rounded-xl"
                   style={{ border: "none", boxShadow: "none" }}
                 />
                 <div className="text-left">
-                  <h3 className="font-bold text-lg">Project - ScrapBooth</h3>
+                  <h3 className="text-lg font-bold">Project - ScrapBooth</h3>
                   <p>
                     Inspired by my passion for traveling, I conceptualized
                     ScrapBooth, a 3-tier web application designed to help users
@@ -176,8 +176,8 @@ export default function Portfolio() {
                 </div>
               </li>
 
-              <li className="p-4 bg-white rounded-xl shadow hover:shadow-md transition">
-                <h3 className="font-bold text-lg">
+              <li className="p-4 transition bg-white shadow rounded-xl hover:shadow-md">
+                <h3 className="text-lg font-bold">
                   Cyber 101 Tech Fellow – CodePath
                 </h3>
                 <p>
@@ -186,8 +186,8 @@ export default function Portfolio() {
                 </p>
               </li>
 
-              <li className="p-4 bg-white rounded-xl shadow hover:shadow-md transition">
-                <h3 className="font-bold text-lg">
+              <li className="p-4 transition bg-white shadow rounded-xl hover:shadow-md">
+                <h3 className="text-lg font-bold">
                   Order Management System Intern – Ulta Beauty
                 </h3>
                 <p>
@@ -197,8 +197,8 @@ export default function Portfolio() {
                 </p>
               </li>
 
-              <li className="p-4 bg-white rounded-xl shadow hover:shadow-md transition">
-                <h3 className="font-bold text-lg">
+              <li className="p-4 transition bg-white shadow rounded-xl hover:shadow-md">
+                <h3 className="text-lg font-bold">
                   Assistant Teacher – Beehive Day Care
                 </h3>
                 <p>
@@ -216,7 +216,7 @@ export default function Portfolio() {
             <h2 className="text-2xl font-semibold text-[#005DAA] mb-4">
               Skills
             </h2>
-            <ul className="list-disc list-inside space-y-1">
+            <ul className="space-y-1 list-disc list-inside">
               <li>Cybersecurity tools: Wireshark, Kali Linux, Nmap</li>
               <li>Programming languages: Python, Java, R, SQL, JavaScript</li>
               <li>Front-End: React, HTML, CSS, XML</li>
@@ -243,7 +243,7 @@ export default function Portfolio() {
               Illinois Institute of Technology
             
             </p>
-            <ul className="list-disc list-inside mt-2 space-y-1">
+            <ul className="mt-2 space-y-1 list-disc list-inside">
               <li>
                 Dean's List Fall 2020, Spring 2024, Fall 2024, Spring 2025
               </li>
@@ -265,7 +265,7 @@ export default function Portfolio() {
       </main>
 
       {/* Footer */}
-      <footer className="text-center mt-20 text-sm text-gray-600">
+      <footer className="mt-20 text-sm text-center text-gray-600">
         <p>
           Contact me at{" "}
           <a
