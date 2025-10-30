@@ -25,7 +25,7 @@ export default function Portfolio() {
         <div className="flex flex-col items-center text-center">
           <p className="text-sm text-gray-600">Hello, I'm</p>
           <h1 className="text-4xl font-bold text-[#005DAA]">Genesis Gaytan</h1>
-          <p className="mt-1 text-lg">IIT | RTC | WiCys</p>
+          <p className="mt-1 text-lg">NYU | RTC | WiCyS</p>
 
           {/* LinkedIn Icon */}
           <div className="flex justify-center mt-4 md:justify-start">
@@ -81,7 +81,7 @@ export default function Portfolio() {
               &times;
             </button>
             <iframe
-                src={`${process.env.PUBLIC_URL}/Gaytan_Genesis_Resume.pdf`}
+                src={`${process.env.PUBLIC_URL}/Genesis_Gaytan_Resume.pdf`}
                 title="Genesis Gaytan Resume"
                  className="w-full h-full rounded-md"
             />
@@ -98,20 +98,13 @@ export default function Portfolio() {
               About Me
             </h2>
             <p>
-              I am an Information Technology and Management graduate from
-              Illinois Tech with a passion for technology, travel, and community
-              involvement. I was born and raised in Chicago! Experienced in
-              programming, cybersecurity, and collaborative projects, I love
-              learning and am a quick learner who picks up new skills easily. I
-              thrive in collaborative environments and am currently pursuing the
-              Microsoft cybersecurity analyst certification. I’m actively
-              seeking a role in cybersecurity and analytics where I can
-              apply my technical skills and passion for protecting data and
-              uncovering valuable insights. Outside of technology, I enjoy
-              traveling and immersing myself in new cultures, which I believe
-              broadens my worldview. I am also a violinist and an active member
-              of my church community, where I find balance and purpose through
-              music and service.
+            Hi, I’m Genesis, a cybersecurity graduate student at New York University’s Tandon School of Engineering, where I’m part of the Cyber Fellows program focused on network defense, incident response, and applied cryptography.
+
+            I recently earned my B.S. in Information Technology and Management from Illinois Tech, where I gained hands-on experience in programming, cybersecurity, and data analytics. I’m also certified as a Microsoft Cybersecurity Analyst and a Google Cybersecurity Professional.
+
+            I’m passionate about strengthening digital security and using analytics to uncover meaningful insights. I thrive in collaborative, growth-oriented environments and am eager to apply my technical expertise in cybersecurity and data analytics roles that make an impact.
+
+            Outside of tech, I’m a violinist and an active member of my church community, where I find balance and purpose through music and service.
             </p>
           </section>
         </Element>
@@ -181,8 +174,10 @@ export default function Portfolio() {
                   Cyber 101 Tech Fellow – CodePath
                 </h3>
                 <p>
-                  Supported launch of remote cybersecurity courses nationwide,
-                  reinforcing incident response and threat awareness standards.
+                Trained and supported 30+ students in foundational cybersecurity concepts, acting as a teaching assistant
+Guided students through technical offering personalized feedback and strategies to help them succeed 
+Led small group sessions and reinforced key topics including incident response, threat awareness, and data security
+
                 </p>
               </li>
 
@@ -191,9 +186,12 @@ export default function Portfolio() {
                   Order Management System Intern – Ulta Beauty
                 </h3>
                 <p>
-                  Enhanced front-end and back-end functionality of IBM Sterling
-                  OMS, collaborated using Confluence, JIRA, and Cherwell to
-                  maintain data integrity.
+                Contributed to the Order Management System (OMS) — the platform that fulfills customer orders across channels including Buy Online Pick Up In Store (BOPIS), Same Day Delivery (SDD), and Ship to Store.
+Improved store associate workflow by consolidating BOPIS and SDD orders into a single action button, using HTML and XML updates to streamline order processing and enhance system usability.
+Utilized API Tester to create and validate XML order requests, ensuring server responses aligned with expected order outcomes.
+Debugged order release issues with Java, XML, and DB Query, analyzing backend tables to resolve discrepancies that caused failed or delayed orders.
+Participated in daily Agile standups, providing progress updates on tickets and collaborating with cross-functional developers.
+
                 </p>
               </li>
 
@@ -217,51 +215,46 @@ export default function Portfolio() {
               Skills
             </h2>
             <ul className="space-y-1 list-disc list-inside">
-              <li>Cybersecurity tools: Wireshark, Kali Linux, Nmap</li>
-              <li>Programming languages: Python, Java, R, SQL, JavaScript</li>
-              <li>Front-End: React, HTML, CSS, XML</li>
-              <li>
-                Project & IT Tools: Jira, Confluence, GitHub, Docker, Azure
-                DevOps
-              </li>
-              <li>
-                Soft skills: Leadership, communication, problem solving,
-                bilingual in English & Spanish
-              </li>
+              <li>Analytics and Modeling: Python, SQL, R, Excel, R- Studio, Power BI</li>
+              <li>Programing and Dev: Java, HTML, CSS, JavaScript, React, XML</li>
+              <li>Cloud & IT Tools: AWS, Azure DevOps, Docker, GitHub, VirtualBox, Linux</li>
+              <li> Business & Productivity Tools: JIRA, Confluence, Cherwell, Figma</li>
+              <li>Cyber Security Tools: Wireshark, Nmap, Kali Linux, Shell Scripts</li>
+              <li>Certifications: Microsoft Cybersecurity Analyst, Google Cybersecurity, CodePath Cyber 101</li>
+              
             </ul>
           </section>
         </Element>
 
+        {/* Education */}
         {/* Education */}
         <Element name="education">
           <section>
             <h2 className="text-2xl font-semibold text-[#005DAA] mb-4">
               Education
             </h2>
-            <p>
-              Bachelor of Science in Information Technology & Management,
-              Illinois Institute of Technology
             
+            <p>
+              <strong>New York University – Tandon School of Engineering</strong><br />
+              Master’s in Cybersecurity (Expected 2028)
             </p>
             <ul className="mt-2 space-y-1 list-disc list-inside">
-              <li>
-                Dean's List Fall 2020, Spring 2024, Fall 2024, Spring 2025
-              </li>
-              <li>
-                Leaders in Science & Tech Scholarship, Heald Scholarship, Stem+
-                Scholarship Recipient
-              </li>
+              <li>Currently enrolled in the Cyber Fellows program focused on network defense, incident response, and applied cryptography</li>
+            </ul>
 
-              <li>
-                Additional coursework: OOP, Data Networks, Cybersecurity
-                Technologies, Project Management, Front-End Web Development
-              </li>
-              <p>
-              Microsoft cybersecurity analyst certification (In Progress)
+            <p className="mt-6">
+              <strong>Illinois Institute of Technology</strong><br />
+              Bachelor of Science in Information Technology & Management (2025)
             </p>
+            <ul className="mt-2 space-y-1 list-disc list-inside">
+              <li>Dean’s List: Fall 2020, Spring 2024, Fall 2024, Spring 2025</li>
+              <li>Recipient of Leaders in Science & Tech, Heald, and STEM+ Scholarships</li>
+              <li>Relevant coursework: Object-Oriented Programming, Data Networks, Cybersecurity Technologies, Project Management, and Front-End Web Development</li>
+              <li>Microsoft Cybersecurity Analyst Certification</li>
             </ul>
           </section>
         </Element>
+
       </main>
 
       {/* Footer */}
