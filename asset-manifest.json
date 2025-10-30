@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/genesis-portfolio/static/css/main.a4a3e1c6.css",
-    "main.js": "/genesis-portfolio/static/js/main.01df337c.js",
-    "static/js/453.ba50b80f.chunk.js": "/genesis-portfolio/static/js/453.ba50b80f.chunk.js",
+    "main.css": "/genesis-portfolio/static/css/main.8248a4b7.css",
+    "main.js": "/genesis-portfolio/static/js/main.59649cf6.js",
+    "static/js/453.39c40241.chunk.js": "/genesis-portfolio/static/js/453.39c40241.chunk.js",
     "static/media/france.png": "/genesis-portfolio/static/media/france.36617d8da1bb1be1a4f0.png",
     "static/media/ulta.png": "/genesis-portfolio/static/media/ulta.7e6a898bde60b1de97d1.png",
     "static/media/chicago.JPG": "/genesis-portfolio/static/media/chicago.6144bd82df80064193a5.JPG",
@@ -10,12 +10,12 @@
     "static/media/unitedAirlines.png": "/genesis-portfolio/static/media/unitedAirlines.8bcc465fabc41d516236.png",
     "static/media/scrapBooth1.png": "/genesis-portfolio/static/media/scrapBooth1.32ebd25fc5b25b1f2498.png",
     "index.html": "/genesis-portfolio/index.html",
-    "main.a4a3e1c6.css.map": "/genesis-portfolio/static/css/main.a4a3e1c6.css.map",
-    "main.01df337c.js.map": "/genesis-portfolio/static/js/main.01df337c.js.map",
-    "453.ba50b80f.chunk.js.map": "/genesis-portfolio/static/js/453.ba50b80f.chunk.js.map"
+    "main.8248a4b7.css.map": "/genesis-portfolio/static/css/main.8248a4b7.css.map",
+    "main.59649cf6.js.map": "/genesis-portfolio/static/js/main.59649cf6.js.map",
+    "453.39c40241.chunk.js.map": "/genesis-portfolio/static/js/453.39c40241.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4a3e1c6.css",
-    "static/js/main.01df337c.js"
+    "static/css/main.8248a4b7.css",
+    "static/js/main.59649cf6.js"
   ]
 }
