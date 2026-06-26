@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/genesis-portfolio/static/css/main.8248a4b7.css",
-    "main.js": "/genesis-portfolio/static/js/main.59649cf6.js",
-    "static/js/453.39c40241.chunk.js": "/genesis-portfolio/static/js/453.39c40241.chunk.js",
-    "static/media/france.png": "/genesis-portfolio/static/media/france.36617d8da1bb1be1a4f0.png",
+    "main.css": "/genesis-portfolio/static/css/main.3d946e0b.css",
+    "main.js": "/genesis-portfolio/static/js/main.d5b9bb9a.js",
+    "static/js/317.8a03f2ff.chunk.js": "/genesis-portfolio/static/js/317.8a03f2ff.chunk.js",
     "static/media/ulta.png": "/genesis-portfolio/static/media/ulta.7e6a898bde60b1de97d1.png",
-    "static/media/chicago.JPG": "/genesis-portfolio/static/media/chicago.6144bd82df80064193a5.JPG",
+    "static/media/chisky.JPG": "/genesis-portfolio/static/media/chisky.abace00bc57895948d66.JPG",
+    "static/media/gradpic.JPG": "/genesis-portfolio/static/media/gradpic.22e2bb1a01a46f3368ff.JPG",
     "static/media/HeadShot.png": "/genesis-portfolio/static/media/HeadShot.8680528306b10b57f821.png",
     "static/media/unitedAirlines.png": "/genesis-portfolio/static/media/unitedAirlines.8bcc465fabc41d516236.png",
     "static/media/scrapBooth1.png": "/genesis-portfolio/static/media/scrapBooth1.32ebd25fc5b25b1f2498.png",
+    "static/media/coopcap.png": "/genesis-portfolio/static/media/coopcap.73a4544b7f9dfc66a0b4.png",
+    "static/media/vayner.PNG": "/genesis-portfolio/static/media/vayner.941f73b827fe61a7679c.PNG",
+    "static/media/ultalogo.png": "/genesis-portfolio/static/media/ultalogo.f143d2d101294e95d14a.png",
     "index.html": "/genesis-portfolio/index.html",
-    "main.8248a4b7.css.map": "/genesis-portfolio/static/css/main.8248a4b7.css.map",
-    "main.59649cf6.js.map": "/genesis-portfolio/static/js/main.59649cf6.js.map",
-    "453.39c40241.chunk.js.map": "/genesis-portfolio/static/js/453.39c40241.chunk.js.map"
+    "main.3d946e0b.css.map": "/genesis-portfolio/static/css/main.3d946e0b.css.map",
+    "main.d5b9bb9a.js.map": "/genesis-portfolio/static/js/main.d5b9bb9a.js.map",
+    "317.8a03f2ff.chunk.js.map": "/genesis-portfolio/static/js/317.8a03f2ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8248a4b7.css",
-    "static/js/main.59649cf6.js"
+    "static/css/main.3d946e0b.css",
+    "static/js/main.d5b9bb9a.js"
   ]
 }
