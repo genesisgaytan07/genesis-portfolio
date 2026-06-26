@@ -6,6 +6,8 @@ import unitedImage from "../assets/unitedAirlines.png";
 import scrapBooth from "../assets/scrapBooth1.png";
 import vayner from "../assets/vayner.PNG";
 import ultalogo from "../assets/ultalogo.png";
+import coopcap from "../assets/coopcap.png";
+
 export default function Portfolio() {
   const [showResume, setShowResume] = useState(false);
 
@@ -199,6 +201,26 @@ export default function Portfolio() {
               Projects
             </h2>
             <ul className="space-y-4">
+              <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
+                <img
+                  src={coopcap}
+                  alt="COOPCap"
+                  className="object-contain w-60 h-60 rounded-xl"
+                  style={{ border: "none", boxShadow: "none" }}
+                />
+                <div className="text-left">
+                  <h3 className="text-lg font-bold">COOP Capstone Project</h3>
+                  <p>
+                    Served as Creative Analyst on a capstone marketing
+                    analysis for telecommunications client StratusLink
+                    Communications. Cleaned and structured campaign data in
+                    MySQL Workbench, built pivot tables in Google Sheets, and
+                    created Tableau dashboards tracking CPA and CTR across
+                    creative size, messaging, device, and location to surface
+                    insights and inform marketing strategy recommendations.
+                  </p>
+                </div>
+              </li>
 
               <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
                 <img
@@ -216,7 +238,8 @@ export default function Portfolio() {
                   </p>
                 </div>
               </li>
-                            <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
+
+              <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
                 <img
                   src={unitedImage}
                   alt="United Airlines Logo"
@@ -238,11 +261,6 @@ export default function Portfolio() {
                   </p>
                 </div>
               </li>
- 
-
-              
-
-              
             </ul>
           </section>
         </Element>
@@ -255,7 +273,7 @@ export default function Portfolio() {
             </h2>
             <ul className="space-y-1 list-disc list-inside">
               <li>
-              Analytics and Modeling: Python, SQL, R, Excel, RStudio, Tableau
+                Analytics and Modeling: Python, SQL, R, Excel, RStudio, Tableau
               </li>
               <li>
                 Programming and Dev: Java, HTML, CSS, JavaScript, React, XML
@@ -268,10 +286,12 @@ export default function Portfolio() {
                 Business & Productivity Tools: JIRA, Confluence, Cherwell, Figma
               </li>
               <li>
-               Cyber Security Tools: Wireshark, Nmap, Kali Linux, Shell Scripts
+                Cyber Security Tools: Wireshark, Nmap, Kali Linux, Shell Scripts
               </li>
               <li>
-                Certifications: ISC2 Certified in Cybersecurity (In Progress), Google Cybersecurity, Google Analytics Professional Certificate, CodePath Cyber 101
+                Certifications: ISC2 Certified in Cybersecurity (In
+                Progress), Google Cybersecurity, Google Analytics
+                Professional Certificate, CodePath Cyber 101
               </li>
             </ul>
           </section>
@@ -313,7 +333,19 @@ export default function Portfolio() {
                 Networks, Cybersecurity Technologies, Project Management, and
                 Front-End Web Development
               </li>
+            </ul>
 
+            <h2 className="text-2xl font-semibold text-[#005DAA] mb-4">
+              Affiliations
+            </h2>
+            <ul className="mt-2 space-y-1 list-disc list-inside">
+              <li>
+                WiCyS | Member, Google Cybersecurity Cohort & ISC2 Spring
+                Camp Participant
+              </li>
+              <li>CodePath | Student, Member, & Tech Fellow</li>
+              <li>Rewriting the Code | Member</li>
+              <li>ACMW–Illinois Tech | Social Media Manager & Board Member</li>
             </ul>
           </section>
         </Element>
