@@ -99,18 +99,16 @@ export default function Portfolio() {
         {/* About Me */}
         <Element name="about">
           <section>
-            <h2 className="text-2xl font-semibold text-[#005DAA] mb-4">
-              About Me
-            </h2>
+            <h2 className="text-2xl font-semibold text-[#005DAA] mb-4">About Me</h2>
             <div className="space-y-4">
               <p>
                 Hi, I'm Genesis, a cybersecurity graduate student at New York
                 University's Tandon School of Engineering, where I'm part of
                 the Cyber Fellows program focused on network defense,
-                incident response, and applied cryptography. I earned my
-                B.S. in Information Technology and Management from Illinois
-                Tech, where I built a foundation in programming,
-                cybersecurity, and data analytics.
+                incident response, and applied cryptography. I earned my B.S.
+                in Information Technology and Management from Illinois Tech,
+                where I built a foundation in programming, cybersecurity, and
+                data analytics.
               </p>
               <p>
                 I'm currently a Resident Data Analyst at VaynerMedia, where I
@@ -143,55 +141,47 @@ export default function Portfolio() {
             <h2 className="text-2xl font-semibold text-[#005DAA] mb-4">
               Experience
             </h2>
-            <ul className="space-y-4">
-              <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
+            <ul className="space-y-3">
+              <li className="flex flex-col items-start gap-4 p-4 transition bg-white border border-gray-100 shadow-sm rounded-xl hover:shadow-md sm:flex-row-reverse sm:items-center">
                 <img
                   src={vayner}
                   alt="VaynerMedia"
-                  className="object-contain w-60 h-60 rounded-xl"
-                  style={{ border: "none", boxShadow: "none" }}
+                  className="flex-shrink-0 object-contain w-16 h-16 rounded-lg"
                 />
-                <div className="text-left">
-                  <h3 className="text-xl font-bold text-gray-900">
+                <div className="flex-1 text-left">
+                  <h3 className="text-base font-bold text-gray-900">
                     VaynerMedia
                   </h3>
-                  <p className="text-base font-semibold mt-1">
+                  <p className="text-sm font-medium text-[#005DAA] mt-1 mb-2">
                     Resident, Data Analyst
                   </p>
-                  <p className="mt-2">
-                    Excited to join VaynerMedia for the next couple of months
-                    as a Resident Data Analyst!
+                  <p className="text-sm text-gray-600">
+                    Incoming 3-month data analytics residency supporting
+                    advertising and media performance reporting and
+                    analysis.
                   </p>
                 </div>
               </li>
 
-              <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
+              <li className="flex flex-col items-start gap-4 p-4 transition bg-white border border-gray-100 shadow-sm rounded-xl hover:shadow-md sm:flex-row-reverse sm:items-center">
                 <img
                   src={ultalogo}
                   alt="Ulta Beauty"
-                  className="object-contain w-60 h-60 rounded-xl"
-                  style={{ border: "none", boxShadow: "none" }}
+                  className="flex-shrink-0 object-contain w-16 h-16 rounded-lg"
                 />
-                <div className="text-left">
-                  <h3 className="text-xl font-bold text-gray-900">
+                <div className="flex-1 text-left">
+                  <h3 className="text-base font-bold text-gray-900">
                     Ulta Beauty
                   </h3>
-                  <p className="text-base font-semibold mt-1">
+                  <p className="text-sm font-medium text-[#005DAA] mt-1 mb-2">
                     Order Management System Support Intern
                   </p>
-                  <p className="mt-2">
+                  <p className="text-sm text-gray-600">
                     Contributed to OMS supporting thousands of daily orders
-                    across BOPIS, SDD, and Ship to Store workflows
-                  </p>
-                  <p className="mt-2">
-                    Improved store associate workflow by consolidating BOPIS
-                    and SDD orders into a single action button, reducing
-                    processing time by ~30%
-                  </p>
-                  <p className="mt-2">
-                    Debugged order release issues with Java, XML, and DB
-                    Query, analyzing backend tables to resolve discrepancies
-                    that caused failed or delayed orders
+                    across BOPIS, SDD, and Ship to Store. Consolidated
+                    BOPIS and SDD orders into a single action button,
+                    reducing processing time by ~30%. Debugged order
+                    release issues using Java, XML, and DB Query.
                   </p>
                 </div>
               </li>
@@ -200,65 +190,93 @@ export default function Portfolio() {
             <h2 className="text-2xl font-semibold text-[#005DAA] mb-4 mt-12">
               Projects
             </h2>
-            <ul className="space-y-4">
-              <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
+            <ul className="space-y-3">
+              <li className="flex flex-col items-start gap-4 p-4 transition bg-white border border-gray-100 shadow-sm rounded-xl hover:shadow-md sm:flex-row-reverse sm:items-center">
                 <img
                   src={coopcap}
-                  alt="COOPCap"
-                  className="object-contain w-60 h-60 rounded-xl"
-                  style={{ border: "none", boxShadow: "none" }}
+                  alt="COOP Capstone Project"
+                  className="flex-shrink-0 object-contain w-16 h-16 rounded-lg"
                 />
-                <div className="text-left">
-                  <h3 className="text-lg font-bold">COOP Capstone Project</h3>
-                  <p>
-                    Served as Creative Analyst on a capstone marketing
-                    analysis for telecommunications client StratusLink
-                    Communications. Cleaned and structured campaign data in
-                    MySQL Workbench, built pivot tables in Google Sheets, and
-                    created Tableau dashboards tracking CPA and CTR across
-                    creative size, messaging, device, and location to surface
-                    insights and inform marketing strategy recommendations.
+                <div className="flex-1 text-left">
+                  <h3 className="text-base font-bold text-gray-900">
+                    COOP Capstone Project
+                  </h3>
+                  <p className="text-sm font-medium text-[#005DAA] mt-1 mb-2">
+                    Creative Analyst
                   </p>
+                  <p className="mb-3 text-sm text-gray-600">
+                    Marketing analysis for telecommunications client
+                    StratusLink Communications, tracking CPA and CTR
+                    across creative size, messaging, device, and location
+                    to inform strategy.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full">
+                      MySQL Workbench
+                    </span>
+                    <span className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full">
+                      Google Sheets
+                    </span>
+                    <span className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full">
+                      Tableau
+                    </span>
+                  </div>
                 </div>
               </li>
 
-              <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
+              <li className="flex flex-col items-start gap-4 p-4 transition bg-white border border-gray-100 shadow-sm rounded-xl hover:shadow-md sm:flex-row-reverse sm:items-center">
                 <img
                   src={scrapBooth}
                   alt="ScrapBooth Logo"
-                  className="object-contain w-60 h-60 rounded-xl"
-                  style={{ border: "none", boxShadow: "none" }}
+                  className="flex-shrink-0 object-contain w-16 h-16 rounded-lg"
                 />
-                <div className="text-left">
-                  <h3 className="text-lg font-bold">ScrapBooth</h3>
-                  <p>
-                    Inspired by my passion for traveling, I conceptualized
-                    ScrapBooth, a 3-tier web application designed to help
-                    users organize and share their travel memories.
+                <div className="flex-1 text-left">
+                  <h3 className="text-base font-bold text-gray-900">
+                    ScrapBooth
+                  </h3>
+                  <p className="mb-3 text-sm text-gray-600">
+                    A 3-tier web application concept for organizing and
+                    sharing travel memories, inspired by my own love of
+                    travel.
                   </p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full">
+                      UI/UX design
+                    </span>
+                    <span className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full">
+                      Vault
+                    </span>
+                  </div>
                 </div>
               </li>
 
-              <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
+              <li className="flex flex-col items-start gap-4 p-4 transition bg-white border border-gray-100 shadow-sm rounded-xl hover:shadow-md sm:flex-row-reverse sm:items-center">
                 <img
                   src={unitedImage}
                   alt="United Airlines Logo"
-                  className="object-contain w-60 h-60 rounded-xl"
-                  style={{ border: "none", boxShadow: "none" }}
+                  className="flex-shrink-0 object-contain w-16 h-16 rounded-lg"
                 />
-                <div className="text-left">
-                  <h3 className="text-lg font-bold">
-                    IIT Association for Computing Machinery Women – Board
-                    Leader
+                <div className="flex-1 text-left">
+                  <h3 className="text-base font-bold text-gray-900">
+                    ACM-W – Illinois Tech
                   </h3>
-                  <p>
-                    Ran the club's social media accounts and coordinated
-                    events. As someone passionate about both technology and
-                    travel, one of my favorite events to coordinate was our
-                    partnership event with United Airlines! It inspired me to
-                    learn more about their tech-driven innovation and
-                    inclusive workplace.
+                  <p className="text-sm font-medium text-[#005DAA] mt-1 mb-2">
+                    Board Leader
                   </p>
+                  <p className="mb-3 text-sm text-gray-600">
+                    Led social media strategy and coordinated campus
+                    events for the club, including a partnership event
+                    with United Airlines that sparked my interest in the
+                    airline's tech-driven, inclusive workplace culture.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full">
+                      Social media strategy
+                    </span>
+                    <span className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full">
+                      Event coordination
+                    </span>
+                  </div>
                 </div>
               </li>
             </ul>
@@ -271,29 +289,124 @@ export default function Portfolio() {
             <h2 className="text-2xl font-semibold text-[#005DAA] mb-4">
               Skills
             </h2>
-            <ul className="space-y-1 list-disc list-inside">
-              <li>
-                Analytics and Modeling: Python, SQL, R, Excel, RStudio, Tableau
-              </li>
-              <li>
-                Programming and Dev: Java, HTML, CSS, JavaScript, React, XML
-              </li>
-              <li>
-                Cloud & IT Tools: AWS, Azure DevOps, Docker, GitHub,
-                VirtualBox, Linux
-              </li>
-              <li>
-                Business & Productivity Tools: JIRA, Confluence, Cherwell, Figma
-              </li>
-              <li>
-                Cyber Security Tools: Wireshark, Nmap, Kali Linux, Shell Scripts
-              </li>
-              <li>
-                Certifications: ISC2 Certified in Cybersecurity (In
-                Progress), Google Cybersecurity, Google Analytics
-                Professional Certificate, CodePath Cyber 101
-              </li>
-            </ul>
+
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+              <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
+                <p className="mb-2 text-sm font-semibold text-gray-700">
+                  Analytics & modeling
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {["Python", "SQL", "R", "Excel", "RStudio", "Tableau"].map(
+                    (skill) => (
+                      <span
+                        key={skill}
+                        className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full"
+                      >
+                        {skill}
+                      </span>
+                    )
+                  )}
+                </div>
+              </div>
+
+              <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
+                <p className="mb-2 text-sm font-semibold text-gray-700">
+                  Programming & dev
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {["Java", "HTML", "CSS", "JavaScript", "React", "XML"].map(
+                    (skill) => (
+                      <span
+                        key={skill}
+                        className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full"
+                      >
+                        {skill}
+                      </span>
+                    )
+                  )}
+                </div>
+              </div>
+
+              <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
+                <p className="mb-2 text-sm font-semibold text-gray-700">
+                  Cloud & IT tools
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    "AWS",
+                    "Azure DevOps",
+                    "Docker",
+                    "GitHub",
+                    "VirtualBox",
+                    "Linux",
+                  ].map((skill) => (
+                    <span
+                      key={skill}
+                      className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
+                <p className="mb-2 text-sm font-semibold text-gray-700">
+                  Cybersecurity tools
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {["Wireshark", "Nmap", "Kali Linux", "Shell Scripts"].map(
+                    (skill) => (
+                      <span
+                        key={skill}
+                        className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full"
+                      >
+                        {skill}
+                      </span>
+                    )
+                  )}
+                </div>
+              </div>
+
+              <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
+                <p className="mb-2 text-sm font-semibold text-gray-700">
+                  Business & productivity
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {["JIRA", "Confluence", "Cherwell", "Figma"].map(
+                    (skill) => (
+                      <span
+                        key={skill}
+                        className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full"
+                      >
+                        {skill}
+                      </span>
+                    )
+                  )}
+                </div>
+              </div>
+
+              <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
+                <p className="mb-2 text-sm font-semibold text-gray-700">
+                  Certifications
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    "ISC2 CC (in progress)",
+                    "Google Cybersecurity",
+                    "Google Analytics Pro",
+                    "CodePath Cyber 101",
+                  ].map((skill) => (
+                    <span
+                      key={skill}
+                      className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
           </section>
         </Element>
 
@@ -304,49 +417,110 @@ export default function Portfolio() {
               Education
             </h2>
 
-            <p>
-              <strong>New York University – Tandon School of Engineering</strong>
-              <br />
-              Master's in Cybersecurity (Expected 2028)
-            </p>
-            <ul className="mt-2 space-y-1 list-disc list-inside">
-              <li>
-                Currently enrolled in the Cyber Fellows program focused on
-                network defense, incident response, and applied cryptography
-              </li>
-            </ul>
+            <div className="space-y-3">
+              <div className="flex items-start gap-4 p-4 transition bg-white shadow rounded-xl hover:shadow-md">
+                <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-lg bg-[#E6F1FB]">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#005DAA"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="w-5 h-5"
+                  >
+                    <path d="M12 3 2 8l10 5 10-5-10-5Z" />
+                    <path d="M6 10.5V16c0 1 2.5 2.5 6 2.5s6-1.5 6-2.5v-5.5" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-gray-900">
+                    New York University – Tandon School of Engineering
+                  </h3>
+                  <p className="mt-1 mb-2 text-sm text-gray-500">
+                    Master's in Cybersecurity · Expected 2028
+                  </p>
+                  <p className="text-sm text-gray-600">
+                    Currently enrolled in the Cyber Fellows program
+                    focused on network defense, incident response, and
+                    applied cryptography.
+                  </p>
+                </div>
+              </div>
 
-            <p className="mt-6">
-              <strong>Illinois Institute of Technology</strong>
-              <br />
-              Bachelor of Science in Information Technology & Management
-              (2025)
-            </p>
-            <ul className="mt-2 space-y-1 list-disc list-inside">
-              <li>Dean's List: Fall 2020, Spring 2024, Fall 2024, Spring 2025</li>
-              <li>
-                Recipient of Leaders in Science & Tech, Heald, and STEM+
-                Scholarships
-              </li>
-              <li>
-                Relevant coursework: Object-Oriented Programming, Data
-                Networks, Cybersecurity Technologies, Project Management, and
-                Front-End Web Development
-              </li>
-            </ul>
+              <div className="flex items-start gap-4 p-4 transition bg-white shadow rounded-xl hover:shadow-md">
+                <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-lg bg-[#E6F1FB]">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#005DAA"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="w-5 h-5"
+                  >
+                    <circle cx="12" cy="9" r="5" />
+                    <path d="M9 13.5 7 21l5-3 5 3-2-7.5" />
+                  </svg>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-base font-bold text-gray-900">
+                    Illinois Institute of Technology
+                  </h3>
+                  <p className="mt-1 mb-2 text-sm text-gray-500">
+                    B.S. Information Technology & Management · 2025
+                  </p>
+                  <p className="mb-3 text-sm text-gray-600">
+                    Relevant coursework: Object-Oriented Programming, Data
+                    Networks, Cybersecurity Technologies, Project
+                    Management, and Front-End Web Development
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full">
+                      Dean's List x4
+                    </span>
+                    <span className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full">
+                      Leaders in Science & Tech Scholar
+                    </span>
+                    <span className="text-xs font-medium text-[#0C447C] bg-[#E6F1FB] px-3 py-1 rounded-full">
+                      STEM+ Scholar
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <h2 className="text-2xl font-semibold text-[#005DAA] mb-4">
+            <h2 className="text-2xl font-semibold text-[#005DAA] mb-4 mt-12">
               Affiliations
             </h2>
-            <ul className="mt-2 space-y-1 list-disc list-inside">
-              <li>
-                WiCyS | Member, Google Cybersecurity Cohort & ISC2 Spring
-                Camp Participant
-              </li>
-              <li>CodePath | Student, Member, & Tech Fellow</li>
-              <li>Rewriting the Code | Member</li>
-              <li>ACMW–Illinois Tech | Social Media Manager & Board Member</li>
-            </ul>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
+                <p className="text-sm font-bold text-gray-900">WiCyS</p>
+                <p className="mt-1 text-xs text-gray-500">
+                  Member, Google Cybersecurity Cohort & ISC2 Spring Camp
+                </p>
+              </div>
+              <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
+                <p className="text-sm font-bold text-gray-900">CodePath</p>
+                <p className="mt-1 text-xs text-gray-500">
+                  Student, Member, & Tech Fellow
+                </p>
+              </div>
+              <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
+                <p className="text-sm font-bold text-gray-900">
+                  Rewriting the Code
+                </p>
+                <p className="mt-1 text-xs text-gray-500">Member</p>
+              </div>
+              <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
+                <p className="text-sm font-bold text-gray-900">
+                  ACMW – Illinois Tech
+                </p>
+                <p className="mt-1 text-xs text-gray-500">
+                  Social Media Manager & Board Member
+                </p>
+              </div>
+            </div>
           </section>
         </Element>
       </main>
