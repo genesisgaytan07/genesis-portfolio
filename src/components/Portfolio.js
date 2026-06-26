@@ -4,7 +4,8 @@ import headshot from "../assets/HeadShot.png";
 import Carousel from "./Carousel";
 import unitedImage from "../assets/unitedAirlines.png";
 import scrapBooth from "../assets/scrapBooth1.png";
-
+import vayner from "../assets/vayner.PNG";
+import ultalogo from "../assets/ultalogo.png";
 export default function Portfolio() {
   const [showResume, setShowResume] = useState(false);
 
@@ -30,7 +31,7 @@ export default function Portfolio() {
           {/* LinkedIn Icon */}
           <div className="flex justify-center mt-4 md:justify-start">
             <a
-              href="https://www.linkedin.com/in/genesis-gaytan-ba330b164/"
+              href="https://www.linkedin.com/in/genesis-gaytan/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn Profile"
@@ -51,6 +52,7 @@ export default function Portfolio() {
 
           {/* Buttons */}
           <div className="flex flex-col justify-center gap-4 mt-4 sm:flex-row sm:justify-start">
+            {/*
             <button
               onClick={() => setShowResume(true)}
               className="inline-block px-6 py-2 bg-[#005DAA] text-white rounded-full hover:bg-[#004C8C] transition"
@@ -58,6 +60,7 @@ export default function Portfolio() {
             >
               View Resume
             </button>
+            */}
             <a
               href="mailto:genesisgaytan01@gmail.com"
               className="px-5 py-2 rounded-full bg-[#005DAA] text-white hover:bg-[#004C8C] transition text-center"
@@ -68,7 +71,7 @@ export default function Portfolio() {
         </div>
       </div>
 
-     {/* Resume Modal */}
+      {/* Resume Modal */}
       {showResume && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
           <div className="bg-white p-4 rounded-lg max-w-5xl w-full h-[85vh] relative shadow-lg">
@@ -81,9 +84,9 @@ export default function Portfolio() {
               &times;
             </button>
             <iframe
-                src={`${process.env.PUBLIC_URL}/Genesis_Gaytan_Resume.pdf`}
-                title="Genesis Gaytan Resume"
-                 className="w-full h-full rounded-md"
+              src={`${process.env.PUBLIC_URL}/Genesis_Gaytan_Resume.pdf`}
+              title="Genesis Gaytan Resume"
+              className="w-full h-full rounded-md"
             />
           </div>
         </div>
@@ -97,15 +100,33 @@ export default function Portfolio() {
             <h2 className="text-2xl font-semibold text-[#005DAA] mb-4">
               About Me
             </h2>
-            <p>
-            Hi, I’m Genesis, a cybersecurity graduate student at New York University’s Tandon School of Engineering, where I’m part of the Cyber Fellows program focused on network defense, incident response, and applied cryptography.
-
-            I recently earned my B.S. in Information Technology and Management from Illinois Tech, where I gained hands-on experience in programming, cybersecurity, and data analytics. I’m also certified as a Microsoft Cybersecurity Analyst and a Google Cybersecurity Professional.
-
-            I’m passionate about strengthening digital security and using analytics to uncover meaningful insights. I thrive in collaborative, growth-oriented environments and am eager to apply my technical expertise in cybersecurity and data analytics roles that make an impact.
-
-            Outside of tech, I’m a violinist and an active member of my church community, where I find balance and purpose through music and service.
-            </p>
+            <div className="space-y-4">
+              <p>
+                Hi, I'm Genesis, a cybersecurity graduate student at New York
+                University's Tandon School of Engineering, where I'm part of
+                the Cyber Fellows program focused on network defense,
+                incident response, and applied cryptography. I earned my
+                B.S. in Information Technology and Management from Illinois
+                Tech, where I built a foundation in programming,
+                cybersecurity, and data analytics.
+              </p>
+              <p>
+                I'm currently a Resident Data Analyst at VaynerMedia, where I
+                work with advertising and media performance data to help
+                translate numbers into actionable insight. I'm certified in
+                Google Cybersecurity and hold a Google Analytics Professional
+                Certificate. I'm passionate about strengthening digital
+                security while using analytics to uncover meaningful patterns
+                in data, and I thrive in collaborative, growth-oriented
+                environments where I can apply my technical skills to make a
+                real impact.
+              </p>
+              <p>
+                Outside of tech, I'm a violinist and an active member of my
+                church community, where I find balance and purpose through
+                music and service.
+              </p>
+            </div>
           </section>
         </Element>
 
@@ -118,29 +139,66 @@ export default function Portfolio() {
         <Element name="experience">
           <section>
             <h2 className="text-2xl font-semibold text-[#005DAA] mb-4">
-              Projects & Experience
+              Experience
             </h2>
             <ul className="space-y-4">
               <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
                 <img
-                  src={unitedImage}
-                  alt="United Airlines Logo"
+                  src={vayner}
+                  alt="VaynerMedia"
                   className="object-contain w-60 h-60 rounded-xl"
                   style={{ border: "none", boxShadow: "none" }}
                 />
                 <div className="text-left">
-                  <h3 className="text-lg font-bold">
-                    IIT Association for Computing Machinery Women – Board Leader
+                  <h3 className="text-xl font-bold text-gray-900">
+                    VaynerMedia
                   </h3>
-                  <p>
-                    Ran the club's social media accounts and coordinated events. As someone
-                    passionate about both technology and travel, one of my
-                    favorite events to coordinate was our partnership event with
-                    United Airlines! It inspired me to learn more about their
-                    tech-driven innovation and inclusive workplace.
+                  <p className="text-base font-semibold mt-1">
+                    Resident, Data Analyst
+                  </p>
+                  <p className="mt-2">
+                    Excited to join VaynerMedia for the next couple of months
+                    as a Resident Data Analyst!
                   </p>
                 </div>
               </li>
+
+              <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
+                <img
+                  src={ultalogo}
+                  alt="Ulta Beauty"
+                  className="object-contain w-60 h-60 rounded-xl"
+                  style={{ border: "none", boxShadow: "none" }}
+                />
+                <div className="text-left">
+                  <h3 className="text-xl font-bold text-gray-900">
+                    Ulta Beauty
+                  </h3>
+                  <p className="text-base font-semibold mt-1">
+                    Order Management System Support Intern
+                  </p>
+                  <p className="mt-2">
+                    Contributed to OMS supporting thousands of daily orders
+                    across BOPIS, SDD, and Ship to Store workflows
+                  </p>
+                  <p className="mt-2">
+                    Improved store associate workflow by consolidating BOPIS
+                    and SDD orders into a single action button, reducing
+                    processing time by ~30%
+                  </p>
+                  <p className="mt-2">
+                    Debugged order release issues with Java, XML, and DB
+                    Query, analyzing backend tables to resolve discrepancies
+                    that caused failed or delayed orders
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <h2 className="text-2xl font-semibold text-[#005DAA] mb-4 mt-12">
+              Projects
+            </h2>
+            <ul className="space-y-4">
 
               <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
                 <img
@@ -150,60 +208,41 @@ export default function Portfolio() {
                   style={{ border: "none", boxShadow: "none" }}
                 />
                 <div className="text-left">
-                  <h3 className="text-lg font-bold">Project - ScrapBooth</h3>
+                  <h3 className="text-lg font-bold">ScrapBooth</h3>
                   <p>
                     Inspired by my passion for traveling, I conceptualized
-                    ScrapBooth, a 3-tier web application designed to help users
-                    organize and share their travel memories. Served as the
-                    first UI/UX Designer and IT Security lead on this school
-                    project, designing the user interface and experience,
-                    collaborating with developers to implement and test the
-                    design. Built the Vault server for secrets management to
-                    ensure secure deployment and data protection. Actively
-                    participated in sprint planning, task assignment, and
-                    utilized project management tools to keep the team
-                    coordinated and productive. Gained hands-on experience in
-                    UI/UX design, web application security, and Agile team
-                    collaboration in an academic environment.
+                    ScrapBooth, a 3-tier web application designed to help
+                    users organize and share their travel memories.
                   </p>
                 </div>
               </li>
-
-              <li className="p-4 transition bg-white shadow rounded-xl hover:shadow-md">
-                <h3 className="text-lg font-bold">
-                  Cyber 101 Tech Fellow – CodePath
-                </h3>
-                <p>
-                Trained and supported 30+ students in foundational cybersecurity concepts, acting as a teaching assistant
-Guided students through technical offering personalized feedback and strategies to help them succeed 
-Led small group sessions and reinforced key topics including incident response, threat awareness, and data security
-
-                </p>
+                            <li className="flex flex-col items-center justify-between gap-6 p-4 transition bg-white shadow rounded-xl hover:shadow-md sm:flex-row-reverse">
+                <img
+                  src={unitedImage}
+                  alt="United Airlines Logo"
+                  className="object-contain w-60 h-60 rounded-xl"
+                  style={{ border: "none", boxShadow: "none" }}
+                />
+                <div className="text-left">
+                  <h3 className="text-lg font-bold">
+                    IIT Association for Computing Machinery Women – Board
+                    Leader
+                  </h3>
+                  <p>
+                    Ran the club's social media accounts and coordinated
+                    events. As someone passionate about both technology and
+                    travel, one of my favorite events to coordinate was our
+                    partnership event with United Airlines! It inspired me to
+                    learn more about their tech-driven innovation and
+                    inclusive workplace.
+                  </p>
+                </div>
               </li>
+ 
 
-              <li className="p-4 transition bg-white shadow rounded-xl hover:shadow-md">
-                <h3 className="text-lg font-bold">
-                  Order Management System Intern – Ulta Beauty
-                </h3>
-                <p>
-                Contributed to the Order Management System (OMS) — the platform that fulfills customer orders across channels including Buy Online Pick Up In Store (BOPIS), Same Day Delivery (SDD), and Ship to Store.
-Improved store associate workflow by consolidating BOPIS and SDD orders into a single action button, using HTML and XML updates to streamline order processing and enhance system usability.
-Utilized API Tester to create and validate XML order requests, ensuring server responses aligned with expected order outcomes.
-Debugged order release issues with Java, XML, and DB Query, analyzing backend tables to resolve discrepancies that caused failed or delayed orders.
-Participated in daily Agile standups, providing progress updates on tickets and collaborating with cross-functional developers.
+              
 
-                </p>
-              </li>
-
-              <li className="p-4 transition bg-white shadow rounded-xl hover:shadow-md">
-                <h3 className="text-lg font-bold">
-                  Assistant Teacher – Beehive Day Care
-                </h3>
-                <p>
-                  Maintained safe, educational environment and communicated
-                  student progress with parents and staff.
-                </p>
-              </li>
+              
             </ul>
           </section>
         </Element>
@@ -215,46 +254,69 @@ Participated in daily Agile standups, providing progress updates on tickets and 
               Skills
             </h2>
             <ul className="space-y-1 list-disc list-inside">
-              <li>Analytics and Modeling: Python, SQL, R, Excel, R- Studio, Power BI</li>
-              <li>Programing and Dev: Java, HTML, CSS, JavaScript, React, XML</li>
-              <li>Cloud & IT Tools: AWS, Azure DevOps, Docker, GitHub, VirtualBox, Linux</li>
-              <li> Business & Productivity Tools: JIRA, Confluence, Cherwell, Figma</li>
-              <li>Cyber Security Tools: Wireshark, Nmap, Kali Linux, Shell Scripts</li>
-              <li>Certifications: Microsoft Cybersecurity Analyst, Google Cybersecurity, CodePath Cyber 101</li>
-              
+              <li>
+              Analytics and Modeling: Python, SQL, R, Excel, RStudio, Tableau
+              </li>
+              <li>
+                Programming and Dev: Java, HTML, CSS, JavaScript, React, XML
+              </li>
+              <li>
+                Cloud & IT Tools: AWS, Azure DevOps, Docker, GitHub,
+                VirtualBox, Linux
+              </li>
+              <li>
+                Business & Productivity Tools: JIRA, Confluence, Cherwell, Figma
+              </li>
+              <li>
+               Cyber Security Tools: Wireshark, Nmap, Kali Linux, Shell Scripts
+              </li>
+              <li>
+                Certifications: ISC2 Certified in Cybersecurity (In Progress), Google Cybersecurity, Google Analytics Professional Certificate, CodePath Cyber 101
+              </li>
             </ul>
           </section>
         </Element>
 
-        {/* Education */}
         {/* Education */}
         <Element name="education">
           <section>
             <h2 className="text-2xl font-semibold text-[#005DAA] mb-4">
               Education
             </h2>
-            
+
             <p>
-              <strong>New York University – Tandon School of Engineering</strong><br />
-              Master’s in Cybersecurity (Expected 2028)
+              <strong>New York University – Tandon School of Engineering</strong>
+              <br />
+              Master's in Cybersecurity (Expected 2028)
             </p>
             <ul className="mt-2 space-y-1 list-disc list-inside">
-              <li>Currently enrolled in the Cyber Fellows program focused on network defense, incident response, and applied cryptography</li>
+              <li>
+                Currently enrolled in the Cyber Fellows program focused on
+                network defense, incident response, and applied cryptography
+              </li>
             </ul>
 
             <p className="mt-6">
-              <strong>Illinois Institute of Technology</strong><br />
-              Bachelor of Science in Information Technology & Management (2025)
+              <strong>Illinois Institute of Technology</strong>
+              <br />
+              Bachelor of Science in Information Technology & Management
+              (2025)
             </p>
             <ul className="mt-2 space-y-1 list-disc list-inside">
-              <li>Dean’s List: Fall 2020, Spring 2024, Fall 2024, Spring 2025</li>
-              <li>Recipient of Leaders in Science & Tech, Heald, and STEM+ Scholarships</li>
-              <li>Relevant coursework: Object-Oriented Programming, Data Networks, Cybersecurity Technologies, Project Management, and Front-End Web Development</li>
-              <li>Microsoft Cybersecurity Analyst Certification</li>
+              <li>Dean's List: Fall 2020, Spring 2024, Fall 2024, Spring 2025</li>
+              <li>
+                Recipient of Leaders in Science & Tech, Heald, and STEM+
+                Scholarships
+              </li>
+              <li>
+                Relevant coursework: Object-Oriented Programming, Data
+                Networks, Cybersecurity Technologies, Project Management, and
+                Front-End Web Development
+              </li>
+
             </ul>
           </section>
         </Element>
-
       </main>
 
       {/* Footer */}

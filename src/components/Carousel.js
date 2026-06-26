@@ -1,12 +1,12 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from "react-responsive-carousel";
 import "../styles/Carousel.css"; 
-import france from "../assets/france.png";
+import chisky from "../assets/chisky.JPG";
 import ulta from "../assets/ulta.png"
-import chicago from "../assets/chicago.JPG"
+import gradpic from "../assets/gradpic.JPG"
 
 export default function TravelCarousel() {
-  const travelImages = [france,ulta,chicago];
+  const travelImages = [ulta, chisky,gradpic];
 
   return (
     <section className="max-w-4xl mx-auto mt-20 px-4">
