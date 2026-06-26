@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/genesis-portfolio/static/css/main.3d946e0b.css",
-    "main.js": "/genesis-portfolio/static/js/main.d5b9bb9a.js",
+    "main.css": "/genesis-portfolio/static/css/main.87c05297.css",
+    "main.js": "/genesis-portfolio/static/js/main.0d7aed11.js",
     "static/js/317.8a03f2ff.chunk.js": "/genesis-portfolio/static/js/317.8a03f2ff.chunk.js",
     "static/media/ulta.png": "/genesis-portfolio/static/media/ulta.7e6a898bde60b1de97d1.png",
     "static/media/chisky.JPG": "/genesis-portfolio/static/media/chisky.abace00bc57895948d66.JPG",
@@ -13,12 +13,12 @@
     "static/media/vayner.PNG": "/genesis-portfolio/static/media/vayner.941f73b827fe61a7679c.PNG",
     "static/media/ultalogo.png": "/genesis-portfolio/static/media/ultalogo.f143d2d101294e95d14a.png",
     "index.html": "/genesis-portfolio/index.html",
-    "main.3d946e0b.css.map": "/genesis-portfolio/static/css/main.3d946e0b.css.map",
-    "main.d5b9bb9a.js.map": "/genesis-portfolio/static/js/main.d5b9bb9a.js.map",
+    "main.87c05297.css.map": "/genesis-portfolio/static/css/main.87c05297.css.map",
+    "main.0d7aed11.js.map": "/genesis-portfolio/static/js/main.0d7aed11.js.map",
     "317.8a03f2ff.chunk.js.map": "/genesis-portfolio/static/js/317.8a03f2ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d946e0b.css",
-    "static/js/main.d5b9bb9a.js"
+    "static/css/main.87c05297.css",
+    "static/js/main.0d7aed11.js"
   ]
 }
