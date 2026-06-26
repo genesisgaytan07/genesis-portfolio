@@ -195,7 +195,7 @@ export default function Portfolio() {
                 <img
                   src={coopcap}
                   alt="COOP Capstone Project"
-                  className="flex-shrink-0 object-contain w-16 h-16 rounded-lg"
+                  className="flex-shrink-0 object-contain w-24 h-24 rounded-lg"
                 />
                 <div className="flex-1 text-left">
                   <h3 className="text-base font-bold text-gray-900">
@@ -228,7 +228,7 @@ export default function Portfolio() {
                 <img
                   src={scrapBooth}
                   alt="ScrapBooth Logo"
-                  className="flex-shrink-0 object-contain w-16 h-16 rounded-lg"
+                  className="flex-shrink-0 object-contain w-24 h-24 rounded-lg"
                 />
                 <div className="flex-1 text-left">
                   <h3 className="text-base font-bold text-gray-900">
@@ -254,7 +254,7 @@ export default function Portfolio() {
                 <img
                   src={unitedImage}
                   alt="United Airlines Logo"
-                  className="flex-shrink-0 object-contain w-16 h-16 rounded-lg"
+                  className="flex-shrink-0 object-contain w-24 h-24 rounded-lg"
                 />
                 <div className="flex-1 text-left">
                   <h3 className="text-base font-bold text-gray-900">
@@ -293,7 +293,7 @@ export default function Portfolio() {
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
               <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
                 <p className="mb-2 text-sm font-semibold text-gray-700">
-                  Analytics & modeling
+                  Analytics & Modeling
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {["Python", "SQL", "R", "Excel", "RStudio", "Tableau"].map(
@@ -311,7 +311,7 @@ export default function Portfolio() {
 
               <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
                 <p className="mb-2 text-sm font-semibold text-gray-700">
-                  Programming & dev
+                  Programming & Dev
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {["Java", "HTML", "CSS", "JavaScript", "React", "XML"].map(
@@ -352,7 +352,7 @@ export default function Portfolio() {
 
               <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
                 <p className="mb-2 text-sm font-semibold text-gray-700">
-                  Cybersecurity tools
+                  Cybersecurity Tools
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {["Wireshark", "Nmap", "Kali Linux", "Shell Scripts"].map(
@@ -370,7 +370,7 @@ export default function Portfolio() {
 
               <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
                 <p className="mb-2 text-sm font-semibold text-gray-700">
-                  Business & productivity
+                  Business & Productivity
                 </p>
                 <div className="flex flex-wrap gap-2">
                   {["JIRA", "Confluence", "Cherwell", "Figma"].map(
@@ -518,6 +518,13 @@ export default function Portfolio() {
                 </p>
                 <p className="mt-1 text-xs text-gray-500">
                   Social Media Manager & Board Member
+                </p>
+              </div>
+              
+              <div className="p-4 bg-white border border-gray-100 shadow-sm rounded-xl">
+                <p className="text-sm font-bold text-gray-900">COOP Careers</p>
+                <p className="mt-1 text-xs text-gray-500">
+               Fellow, Data Analysis
                 </p>
               </div>
             </div>
